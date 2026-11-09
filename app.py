@@ -104,10 +104,6 @@ model_bundle = load_detector_model()
 
 # ── Sidebar Navigation & Filter ────────────────────────────────────────────────
 st.sidebar.markdown("### 🚄 KAI Anomaly Detector")
-st.sidebar.markdown(
-    "<span class='badge-tag'>Data Mining</span><span class='badge-tag'>Multi-View NLP</span>", 
-    unsafe_allow_html=True
-)
 
 st.sidebar.markdown("---")
 page = st.sidebar.radio(
