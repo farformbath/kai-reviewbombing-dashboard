@@ -10,7 +10,7 @@ from pathlib import Path
 
 # ── Page Configuration ──────────────────────────────────────────────────────────
 st.set_page_config(
-    page_title="KAI Access Review Bombing Detector — DIMAS-TI 2026",
+    page_title="KAI Access Review Bombing Detector",
     page_icon="🚄",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -105,7 +105,7 @@ model_bundle = load_detector_model()
 # ── Sidebar Navigation & Filter ────────────────────────────────────────────────
 st.sidebar.markdown("### 🚄 KAI Anomaly Detector")
 st.sidebar.markdown(
-    "<span class='badge-tag'>DIMAS-TI 2026</span><span class='badge-tag'>Multi-View NLP</span>", 
+    "<span class='badge-tag'>Data Mining</span><span class='badge-tag'>Multi-View NLP</span>", 
     unsafe_allow_html=True
 )
 
@@ -162,7 +162,7 @@ st.sidebar.markdown("---")
 st.sidebar.info(
     "**Riset Kolaborasi UNNES**\n"
     "Divisi Penambangan Data (Data Mining)\n"
-    "Kompetisi Nasional DIMAS-TI 2026."
+    "Penambangan Data & NLP."
 )
 
 # ── Header Banner ─────────────────────────────────────────────────────────────
@@ -498,7 +498,7 @@ elif page == "🧪 Live Review Simulator":
 elif page == "📑 Riset & Makalah Ilmiah IEEE":
     st.subheader("Dokumentasi Makalah Ilmiah & Benchmark Model")
     st.markdown("""
-    Riset ini disusun untuk kompetisi **DIMAS-TI 2026** (Divisi Penambangan Data) oleh Tim Peneliti FMIPA UNNES.
+    Riset ini dikembangkan oleh Tim Peneliti FMIPA UNNES dalam bidang Penambangan Data dan NLP.
     """)
     
     st.markdown("#### Visualisasi Hasil Komprehensif Makalah (Multi-Panel)")

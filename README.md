@@ -1,6 +1,6 @@
 # 🚄 KAI Access Review Bombing & Anomaly Detector — Streamlit Dashboard
 
-> **Riset Penambangan Data (Data Mining) — DIMAS-TI 2026**  
+> **Riset Penambangan Data (Data Mining) &amp; Machine Learning**  
 > **Fakultas Matematika dan Ilmu Pengetahuan Alam (FMIPA), Universitas Negeri Semarang (UNNES)**
 
 Aplikasi dashboard interaktif berbasis **Streamlit** untuk mendeteksi serangan *review bombing* dan lonjakan anomali ulasan terkoordinasi pada aplikasi **Access by KAI** menggunakan kerangka kerja hibrida multi-view.

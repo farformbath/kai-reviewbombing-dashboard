@@ -1,7 +1,7 @@
 # kai_detector_pipeline.py
 """
 Shared Pipeline Module for Access by KAI Multi-View Anomaly & Review Bombing Detection
-DIMAS-TI AMLI 2026 - Data Mining Division
+Data Mining & Machine Learning Division
 FMIPA Universitas Negeri Semarang (UNNES) & Universitas Negeri Gorontalo
 """
 
